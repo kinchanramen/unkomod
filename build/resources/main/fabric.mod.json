@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "unkomod",
+  "version": "1.0-SNAPSHOT",
+  "name": "unkomod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/PcUser/unkomod"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/unkomod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.unkomod.unko.unkomod.client.UnkomodClient"
+    ],
+    "main": [
+      "net.unkomod.unko.unkomod.Unkomod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric": "*",
+    "minecraft": "1.19.4"
+  }
+}
